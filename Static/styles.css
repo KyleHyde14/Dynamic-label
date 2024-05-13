@@ -1,0 +1,53 @@
+body, html{
+    display: grid;
+    place-items: center;
+}
+
+img{
+    width: 550px;
+    max-width: 100%;
+}
+
+span{
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+
+li p{
+    justify-self: end;
+}
+
+#info{
+    font-size: 150%;
+    padding: 0 3%;
+    margin: 0 auto;
+}
+
+@media (min-width: 770px) and (max-width: 1024px) {
+    #info{
+        font-size: 120%;
+    }
+
+    img{
+        width: 450px;
+    }
+}
+
+@media (max-width: 769px) {
+    #info{
+        font-size: 110%;
+    }
+    
+    img{
+        width: 350px;
+    }
+}

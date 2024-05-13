@@ -1,0 +1,15 @@
+{
+  "name": "label_template",
+  "version": "1.0.0",
+  "description": "A label template for the qr scanned at Zara",
+  "main": "index.mjs",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [],
+  "author": "Jesús Hernández Aguilar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
