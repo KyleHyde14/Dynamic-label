@@ -13,7 +13,7 @@ let info = {}
 
 for(let i in cleanData){
     const key = cleanData[i][0]
-    info[key] = cleanData[i][1]
+    info[key] = cleanData[i][1].trim()
 }
 
 ref.textContent = info.REF
