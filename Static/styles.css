@@ -32,6 +32,22 @@ li p{
     margin: 0 auto;
 }
 
+button{
+    background-color: inherit;
+    border: none;
+    padding: 1.5% 1%;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+i{
+    font-size: 1.8em;
+}
+
 @media (min-width: 770px) and (max-width: 1024px) {
     #info{
         font-size: 120%;
