@@ -21,10 +21,10 @@ desc_info.textContent = decodeURIComponent(info.DESC).replaceAll('_', ' ')
 
 function toggleIcon() {
     if (volume_on.style.display === 'none') {
-        volume_on.style.display = 'inline';
+        volume_on.style.display = 'block';
         volume_off.style.display = 'none';
     } else {
         volume_on.style.display = 'none';
-        volume_off.style.display = 'inline';
+        volume_off.style.display = 'block';
     }
 }
