@@ -66,4 +66,7 @@ i{
     img{
         width: 350px;
     }
+    button:hover{
+        background-color: inherit;
+    }
 }
