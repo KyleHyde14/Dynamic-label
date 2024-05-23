@@ -33,7 +33,7 @@ li:nth-last-child(1){
 }
 
 li p:nth-last-child(1){
-    max-width: 80%;
+    max-width: 100%;
     height: fit-content;
 }
 
