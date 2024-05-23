@@ -14,16 +14,23 @@ span{
 
 ul{
     list-style: none;
+    max-width: 90%;
 }
 
 li{
-    display: grid;
-    grid-template-columns: 1fr 3fr;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 li p{
-    justify-self: end;
+    max-width: 50%;
+}
+
+li:nth-last-child(1){
+    flex-direction: column;
+    max-width: 100%;
+    height: fit-content;
 }
 
 #info{
