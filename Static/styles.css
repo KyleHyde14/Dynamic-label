@@ -29,7 +29,11 @@ li p{
 
 li:nth-last-child(1){
     flex-direction: column;
-    max-width: 100%;
+    height: fit-content;
+}
+
+li p:nth-last-child(1){
+    max-width: 80%;
     height: fit-content;
 }
 
