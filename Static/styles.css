@@ -29,6 +29,7 @@ li p{
 
 li:nth-last-child(1){
     flex-direction: column;
+    justify-content: center;
     height: fit-content;
 }
 
